@@ -4,16 +4,16 @@ import java.net.InterfaceAddress;
 
 public interface interF {
 
-    void eat();
-    public static final int max = 150;
+     void eat();
+       int max = 150;
 
-    void sleep();
+     void sleep();
 
-    public static void info() {
+    private static void info() {
         System.out.println("Animal interface");
     }
 
-    public default void run() {
+     default void run() {
         System.out.println("i am running");
     }
 
